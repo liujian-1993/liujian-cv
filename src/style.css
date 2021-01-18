@@ -76,10 +76,6 @@
             color: #666;
         }
 
-        .projects strong {
-            color: #000000;
-        }
-
         .projects>ol {
             margin-top: 0;
             list-style-position: inside;

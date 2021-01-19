@@ -21,12 +21,8 @@
         }
 
         h1 {
-            font-size: 25px;
+            font-size: 35px;
             margin-top: 0;
-        }
-
-        h4{
-            font-weight: normal;
         }
 
         ol,
@@ -56,11 +52,6 @@
             font-weight: normal;
         }
 
-        h3,
-        h4{
-            margin: 0;
-        }
-
         .bio {
             position: relative;
         }
@@ -70,10 +61,14 @@
             top: 0;
             right: 0;
         }
-    
+        .bio p {
+            line-height: 1.8;
+        }
 
         .projects p {
             color: #666;
+            margin-left: 100px;
+            line-height: 1.8;
         }
 
         .projects>ol {
@@ -83,21 +78,19 @@
         }
 
         .projects>ol>li {
-            margin-bottom: 54px;
+            margin-bottom: 48px;
         }
         .projects>h2{
-            margin-top: 54px;
+            margin-top: 48px;
         }
 
         .projects>ol>li>header {
             display: flex;
             justify-content: space-between;
+            flex-direction: row;
+            margin-top: 15px;
         }
 
-        .projects>ol>li h3 {
-            display: inline-block;
-        }
-    
 
         #skills {
 
@@ -113,10 +106,12 @@
         }
 
         .skills>.wrapper>ul>li {
-            line-height: 1.2;
+            line-height: 1.8;
             margin-bottom: 4px;
         }
-    
+        .jl>p {
+            line-height: 1.8;
+        }
         @media (max-width: 500px) {
             body {
                 margin: 0;

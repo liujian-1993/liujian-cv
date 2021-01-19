@@ -85,6 +85,9 @@
         .projects>ol>li {
             margin-bottom: 54px;
         }
+        .projects>h2{
+            margin-top: 54px;
+        }
 
         .projects>ol>li>header {
             display: flex;
@@ -101,14 +104,6 @@
             width: 500px;
            height: 15px;
         }
-
-        @media print {
-            #skills {
-                display: none;
-            }
-        }
-
-
         .skills>.wrapper>ul {
             color: #666;
         }
@@ -122,31 +117,6 @@
             margin-bottom: 4px;
         }
     
-        .jobs>ol>li {
-            margin: 4px 0;
-        }
-
-        .jobs header {
-            display: flex;
-            color: #666;
-            margin-bottom: 4px;
-        }
-
-        .jobs header>h3 {
-            font-size: 19px;
-            color: #333;
-        }
-
-        .jobs header>h4 {
-            margin-left: 1em;
-            font-size: 16px;
-        }
-
-        .jobs header>span {
-            font-size: 16px;
-            margin-left: auto;
-        }
-
         @media (max-width: 500px) {
             body {
                 margin: 0;
@@ -160,16 +130,6 @@
             .bio img {
                 display: none;
             }
-
             
-            .jobs header {
-                flex-direction: column;
-            }
-
-            .jobs header>h3,
-            .jobs header>h4,
-            .jobs header>span {
-                margin: 0;
-            }
         }
    

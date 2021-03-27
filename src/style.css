@@ -17,12 +17,15 @@
         }
 
         p {
-            margin: 0.4em 0;
+            margin: 0.2em 0;
         }  
 
         h1 {
-            font-size: 35px;
+            font-size: 30px;
             margin-top: 0;
+        }
+        h2 {
+            font-size: 25px;
         }
 
         ol,
@@ -58,11 +61,12 @@
 
         .bio img {
             position: absolute;
-            top: 92px;
+            top: 0;
             right: 0;
         }
         .bio p {
             line-height: 1.6;
+            font-size: 18px;
         }
 
         .projects p {
@@ -78,25 +82,33 @@
         }
 
         .projects>ol>li {
-            margin-bottom: 48px;
+            margin-bottom: 20px;
         }
         .projects>h2{
-            margin-top: 48px;
+            margin-top: 20px;
         }
 
         .projects>ol>li>header {
             display: flex;
             justify-content: space-between;
             flex-direction: row;
-            margin-top: 15px;
+            margin-top: 10px;
         }
 
 
         #skills {
 
             width: 500px;
-           height: 15px;
+           height: 270px;
         }
+        .skills>.wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .skills>.wrapper>:first-child {
+      margin-right: 24px;
+    }
         .skills>.wrapper>ul {
             color: #666;
         }
@@ -106,25 +118,44 @@
         }
 
         .skills>.wrapper>ul>li {
-            line-height: 1.9;
-            margin-bottom: 4px;
+            line-height: 1.5;
+            margin-bottom: 3px;
         }
         .jl>p {
-            line-height: 2.1;
+            line-height: 1.1;
         }
         @media (max-width: 500px) {
+      body {
+        margin: 0;
+      }
+
+      article {
+        width: auto;
+        height: auto;
+      }
+
+      .bio img {
+        display: none;
+      }
+
+      .skills .wrapper {
+        flex-direction: column;
+      }
+
+      #skills {
+        width: auto;
+      }
+      
+    }
+    @media print {
             body {
-                margin: 0;
-            }
+           margin: 0;
+     }
 
-            article {
-                width: auto;
-                height: auto;
-            }
-
-            .bio img {
-                display: none;
-            }
-            
-        }
+    .page2 {
+      page-break-before: always;
+      margin-top: 30px;
+     }
+     #skills{display:none;}
+    }
    

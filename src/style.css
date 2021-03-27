@@ -21,11 +21,11 @@
         }  
 
         h1 {
-            font-size: 30px;
+            font-size: 28px;
             margin-top: 0;
         }
         h2 {
-            font-size: 25px;
+            font-size: 24px;
         }
 
         ol,
@@ -65,15 +65,15 @@
             right: 0;
         }
         .bio p {
-            line-height: 1.6;
-            font-size: 18px;
+            line-height: 1.8;
+            font-size: 17px;
         }
 
         .projects p {
             color: #666;
             margin-left: 0;
-            line-height: 1.9;
-            font-size: 19px;
+            line-height: 1.8;
+            font-size: 17px;
         }
 
         .projects>ol {
@@ -105,12 +105,12 @@
         .skills>.wrapper {
       display: flex;
       justify-content: space-between;
-      font-size: 19px;
+      font-size: 17px;
     }
 
-    .skills>.wrapper>:second-child {
-      margin-left: 25px;
-    }
+    /*.skills>.wrapper>:second-child {
+      margin-left: 24px;
+    }*/
         .skills>.wrapper>ul {
             color: #666;
         }
@@ -120,8 +120,8 @@
         }
 
         .skills>.wrapper>ul>li {
-            line-height: 1.5;
-            margin-bottom: 3px;
+            line-height: 1.8;
+            margin-bottom: 8px;
         }
         
         @media (max-width: 500px) {
@@ -157,5 +157,11 @@
       margin-top: 30px;
      }
      #skills{display:none;}
+    }
+    .others p{
+        font-size: 17px;
+    }
+    .jingli p{
+        font-size: 17px;
     }
    

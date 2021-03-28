@@ -16,7 +16,7 @@ var option = {
         },
         indicator: [
             { name: 'JavaScript', max: 100 },
-            { name: '静态页面', max: 100 },
+            { name: 'HTML&CSS', max: 100 },
             { name: 'JQuery', max: 100 },
             { name: 'TypeScript', max: 100 },
             { name: 'Vue', max: 100 },

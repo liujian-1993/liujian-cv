@@ -1,5 +1,6 @@
  * {
             box-sizing: border-box;
+            font-family: "Microsoft YaHei";
         }
 
         body {
@@ -23,9 +24,11 @@
         h1 {
             font-size: 28px;
             margin-top: 0;
+            /*font-family: "Microsoft YaHei";*/
         }
         h2 {
             font-size: 24px;
+
         }
 
         ol,
@@ -154,7 +157,7 @@
 
     .page2 {
       page-break-before: always;
-      margin-top: 30px;
+      margin-top: 50px;
      }
      /*#skills{display:none;}*/
     }
@@ -164,4 +167,6 @@
     .jingli p{
         font-size: 17px;
     }
-   
+   #job{
+    font-size: 17px;
+   }
